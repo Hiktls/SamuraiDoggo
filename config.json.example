@@ -1,0 +1,13 @@
+{
+    "bot":{
+        "token":"token-here"
+    },
+    "api":{
+        "weather_api":"key-here",
+        "nasa_key":"key-here"
+    },
+    "database":{
+        "mongoPass":"db-application-connection-link"
+    }
+
+}
