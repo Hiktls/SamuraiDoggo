@@ -72,7 +72,7 @@ npm start
 DM me from discord! Hikt#8143
 
 ## Want to add SamuraiDoggo to your server?
-http://invitehektor.tk
+http://invitesamurai.tk 
 
 Please excuse the use of [.tk](https://en.wikipedia.org/wiki/.tk) domain name :)
 
