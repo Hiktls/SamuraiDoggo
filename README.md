@@ -48,7 +48,11 @@ Be careful to not to change the object names,if you do then change them in the c
 
 ### Explanation of the config
 bot.token = bot token that the application will run
+
+
 api.weather_api = api key for weather data. We use the [Open weather map](https://openweathermap.org/) for weather data.
+
+
 api.nasa_key = nasa key for photo of the day. You can get your api key from their [website](https://api.nasa.gov/).
 
 database.mongoPass = Mongodb application-connection-link since we are using atlas cloud for database storage. You have to sign up and create a cluster.
