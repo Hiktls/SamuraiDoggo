@@ -1,0 +1,8 @@
+# Module directory
+node_modules/
+
+#Config
+config.json
+
+#package-lock
+package-lock.json
