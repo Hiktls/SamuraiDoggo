@@ -15,7 +15,7 @@ const Data = require('./models/data.js')
 
 const client = new Commando.CommandoClient({ // Setting up the client with the owner id
     owner:['363996307062521859','472347794108317696'],
-    commandPrefix:"."
+    commandPrefix:"s!"
 })
 
 // Registiration
@@ -58,6 +58,9 @@ client.on('message',message => {
                 message.channel.send(err)
             }
         }).sort({_id:-1}).limit(1)
+        if(message.content.startsWith(".d")){
+            return;
+        }
     }
 })
 
@@ -115,4 +118,4 @@ client.on('guildDelete',guild =>{
 })
 
 
-client.login(config.bot.token2)
+client.login(config.bot.token)
