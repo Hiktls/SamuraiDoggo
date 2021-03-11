@@ -25,7 +25,7 @@ module.exports = class KickCommand extends Command{
         })
     }
     run(message,{user,reason}){
-        if(message.member.hasPermissions("KICK_MEMBERS")){
+        if(message.member.hasPermission("KICK_MEMBERS")){
             user.kick(reason).then(() => {
                 const kickEmbed = new Discord.MessageEmbed()
                 .setTitle("Kick")
