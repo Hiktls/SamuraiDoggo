@@ -34,6 +34,7 @@ module.exports = class KickCommand extends Command{
                 .setFooter("By " + message.author)
                 message.say(kickEmbed)
             })
+            .catch(err => {console.log(err);message.say("You no permissions have")})
         }
         else if(!message.member.hasPermissions("KICK_MEMBERS")){
             message.reply("You don't have enough permissions for this action :/")
