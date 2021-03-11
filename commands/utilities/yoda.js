@@ -31,7 +31,7 @@ module.exports = class YodaCommand extends Command{
             .setTitle("Yoda said;")
             .setDescription(response.data.yodish)
             .setColor("#00f508")
-            .setFooter("Yoda liked you")
+            .setFooter("Yoda likes you")
             message.say(yodaEmbed)
         })
     }
